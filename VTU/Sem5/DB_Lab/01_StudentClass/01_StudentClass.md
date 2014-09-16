@@ -30,7 +30,7 @@ Write the following queries in SQL. No duplicates should be printed in any of th
 <pre>mysql> create database student;
 Query OK, 1 row affected (0.00 sec)</pre>
 
-<pre>mysql> use flights;
+<pre>mysql> use student;
 Database changed
 
 mysql> create table student(
@@ -71,7 +71,7 @@ mysql> desc faculty;
 
 mysql> create table class(
 	cname varchar(20),
-	metts_at varchar(10),
+	meets_at varchar(10),
 	room varchar(10),
 	fid int,
 	primary key(cname),
